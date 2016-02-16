@@ -12,17 +12,19 @@
 /* nav bar */
 .nav_bar{
   text-align: center;
+  height: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .row2{
   color: grey;
   font-size: 13px;
   display: inline-block;
-  padding: 10px;
+  padding: -15px;
   margin: 0 auto;
   width: 120px;
   border-right: 1px solid black;
   border-color: grey;
-  height: 15px;
   position: relative;
 }
 .nav_content_top{
@@ -159,5 +161,6 @@ a.nav_bar_bttm:visited{
   display: inline-block;
   padding-left: 10px;
   padding-right: 10px;
+  padding-top: 10px;
   padding-bottom: 50px;
 }
