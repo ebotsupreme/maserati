@@ -110,3 +110,41 @@ a.heading:visited{
 .desc{
   font-size: 14px;
 }
+
+/* nav bar bottom */
+.nav_bar_bttm_container{
+  color: grey;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+.nav_bttm_div{
+  padding-right: 10px;
+}
+a.nav_bar_bttm:link{
+  color: grey;
+}
+a.nav_bar_bttm:visited{
+  color: grey;
+}
+.nav_bar_bttm_left{
+  /* text-align: center; */
+  font-size: 12px;
+  text-align: left;
+  float: left;
+}
+.nav_bar_bttm_right{
+  font-size: 12px;
+  text-align: right;
+  float: right;
+}
+.row7{
+  display: inline-block;
+}
+.glyph_size{
+  width: 20px;
+  height: 20px;
+}
