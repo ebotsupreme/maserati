@@ -191,8 +191,24 @@ a.nav_bar_bttm:visited{
     width: 26.8px;
   }
 }
+/* ==== need to finish
 @media screen and (max width: 1200px){
   .content_links{
-    
+
   }
 }
+@media screen and (max width: 600px){
+  .content_links{
+
+  }
+}
+@media screen and (max width: 873px){
+  .nav_bar_bttm_container{
+
+  }
+}
+@media screen and (max width: 709px){
+  .nav_bar_bttm_container{
+
+  }
+}  ==== */
