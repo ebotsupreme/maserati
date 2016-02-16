@@ -1,15 +1,76 @@
+/* logo */
+.row1{
+  text-align: center;
+}
 .logo{
   margin: 0 auto;
   display: block;
   width: 200px;
+  margin-bottom: 45px;
 }
 
+/* nav bar */
 .nav_bar{
   text-align: center;
 }
 .row2{
   color: grey;
+  font-size: 13px;
   display: inline-block;
-  padding: 15px;
+  padding: 10px;
   margin: 0 auto;
+  width: 120px;
+  border-right: 1px solid black;
+  border-color: grey;
+  height: 15px;
+  position: relative;
+}
+.nav_content_top{
+  height: 15px;
+}
+.multi_med_brdr{
+  border-right: none;
+}
+a:link{
+  text-decoration: none;
+  color: grey;
+}
+a:visited{
+  color: grey;
+}
+
+/* main img */
+.row3{
+
+}
+.main_img_size{
+  width: 100%;
+}
+
+/* nav bar mid for main img */
+.nav_bar_middle{
+  text-align: center;
+}
+.row4{
+  color: grey;
+  font-size: 11px;
+  display: inline-block;
+  padding: 10px;
+  margin: 0 auto;
+  width: 165px;
+}
+
+/* news and events ticker box */
+.news_events_box{
+  text-align: center;
+}
+.row5{
+  color: black;
+}
+a.news_events_black:link{
+  text-decoration: none;
+  color: black;
+}
+a.news_events_black:visited{
+  color: black;
 }
