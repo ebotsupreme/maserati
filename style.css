@@ -164,3 +164,35 @@ a.nav_bar_bttm:visited{
   padding-top: 10px;
   padding-bottom: 50px;
 }
+
+/* responsive */
+@media screen and (max-width: 767px){
+  .nav_bar{
+    display: none !important;
+  }
+}
+@media screen and (max-width: 1170px){
+  .nav_bar_middle{
+    /* display: none; */
+  }
+  .nav_bar_middle div a{
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: middle;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+  }
+  .nav_bar_middle div a p{
+    display: none !important;
+  }
+  .nav_bar_middle div{
+    width: 26.8px;
+  }
+}
+@media screen and (max width: 1200px){
+  .content_links{
+    
+  }
+}
